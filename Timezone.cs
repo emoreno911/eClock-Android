@@ -25,7 +25,7 @@ namespace eClock
             {
                 string tzone = File.ReadAllText(GetTimezoneFilePath());
 
-                string key = "#YOUR_API_KEY#";
+                string key = "#YOUR_TIMEZONEDB_API_KEY#";
                 string url = string.Format("http://api.timezonedb.com/v2/get-time-zone?key={0}&format=xml&by=zone&zone={1}", key, tzone);
                 XDocument doc = XDocument.Load(url);
 
