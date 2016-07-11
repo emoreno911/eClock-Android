@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">eClock</string>
+
+    <string name="UpdateButton">Update Time</string>
+    <string name="TimezoneLabel">Current Timezone</string>
+    
+    <string name="WidgetName">eClock Widget</string>
+
+</resources>

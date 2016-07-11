@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/WidgetBackground">
+
+  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Text.ETime"
+            android:id="@+id/wchrono" />
+        <TextView
+            android:text="AM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Text.ETime"
+            android:id="@+id/wtimeText"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+  <TextView
+      android:text="Syncing time\u2026"
+      android:id="@+id/wtimezoneText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dip"
+      android:gravity="center"
+      style="@style/Text.Loading" />
+
+</LinearLayout>
